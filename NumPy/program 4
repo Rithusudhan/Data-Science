@@ -1,0 +1,12 @@
+4. Program to create a 3x3 identity matrix
+
+import numpy as np
+a=np.identity(3,dtype=int)
+print(a)
+
+
+
+output
+[[1 0 0]
+ [0 1 0]
+ [0 0 1]]
