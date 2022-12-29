@@ -1,7 +1,0 @@
-1. Program to multiply two given arrays of same size element-by-element.
-
-import numpy as np
-num1=([[2,4,5],[2,6,1]])
-num2=([[3,4,7],[2,6,1]])
-num3=(np.multiply(num1,num2)
-print(num3)
