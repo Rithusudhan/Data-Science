@@ -1,4 +1,5 @@
-9. Program to check whether two arrays are equal (element wise) or not.
+Program to create a 4x4 array with random values, now create a new array after swapping 
+first and last row
 
 import numpy as np
  a=np.arange(16,dtype=int).reshape(-1,4)
