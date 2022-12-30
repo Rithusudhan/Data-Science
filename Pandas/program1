@@ -1,0 +1,9 @@
+List to series
+
+import pandas as pd
+l=[1,2,4,5,7]
+print("List")
+print(l)
+print("After converting to series")
+r=pd.Series(l)
+print(r)
