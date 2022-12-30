@@ -1,0 +1,12 @@
+. Program to create a 5x5 zero matrix with elements on the main diagonal.
+
+import numpy as np
+a=np.diag([1,2,3,4,5])
+print(a)
+
+output
+[[1 0 0 0 0]
+ [0 2 0 0 0]
+ [0 0 3 0 0]
+ [0 0 0 4 0]
+ [0 0 0 0 5]]
