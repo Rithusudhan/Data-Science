@@ -1,0 +1,12 @@
+7. Program to compute sum of all elements, sum of each column and sum of each row
+
+import numpy as np
+a=np.array([[1,2,3],[4,2,1]])
+print(np.sum(a))
+print(np.sum(a,axis=0))
+print(np.sum(a,axis=1))
+
+output
+13
+[5 4 4]
+[6 7]
