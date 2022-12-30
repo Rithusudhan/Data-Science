@@ -1,0 +1,8 @@
+9. Program to check whether two arrays are equal (element wise) or not.
+
+import numpy as np
+ a=np.arange(16,dtype=int).reshape(-1,4)
+ print(a)
+ a[[0,-1],:]=a[[-1,0],:]
+ print(a)
+ 
